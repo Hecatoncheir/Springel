@@ -1,7 +1,7 @@
 name: Spelements
 version: 1.0.0
 description: Elements which following cursor on limit destination, with spring effect.
-homepage:
+homepage: http://rasarts.github.io/SpElements/
 dependencies:
   browser: any
 transformers:
