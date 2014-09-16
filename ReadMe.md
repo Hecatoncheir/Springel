@@ -1,6 +1,6 @@
 #Dart библиотека Springel
 
-[Springel Library site](https://github.com/Rasarts/Springel.git)
+[Springel Library site](http://rasarts.github.io/Springel/)
 
 Создает элементы которые при наведении цепляясь к курсору, следуют за ним на определенное расстояние.
 
