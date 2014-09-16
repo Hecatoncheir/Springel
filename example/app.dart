@@ -1,4 +1,4 @@
-import 'package:SpElements/spelements.dart';
+import 'package:Spelements/spelements.dart';
 
 main(){
   new SpringElements(
