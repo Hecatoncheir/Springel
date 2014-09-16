@@ -1,7 +1,7 @@
 name: springel
 version: 1.0.0
 description: Elements which following cursor on limit destination, with spring effect.
-homepage: http://rasarts.github.io/SpElements/
+homepage: https://github.com/Rasarts/Springel.git
 author: Vostrikov Vitaliy <rasart.pro@gmail.com>
 dependencies:
   browser: any
