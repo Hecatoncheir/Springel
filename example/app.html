@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>SpElements</title>
+    <link rel="stylesheet" href="main.css">
+
+    <script type="application/dart" src="app.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+
+    <link href="//fonts.googleapis.com/css?family=Lobster:400" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Arimo:400,700italic&subset=cyrillic-ext,latin,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<h1>Dart SpElements Library</h1>
+<main>
+    <section>
+     <p style="text-align: center">Creates elements that clinging to the cursor, follow him at a certain distance.</p>
+    </section>
+
+    <section>
+        <div class="preview">
+            <nav class="n1">
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </nav>
+        </div>
+
+    <article>
+        <h2>Use constructor without <span>limit</span></h2>
+        <pre class="code">
+        new SpringElements(
+            elements: '.nav a'
+        );</pre>
+
+    </article>
+
+    <div class="both"></div>
+
+    </section>
+
+
+    <section>
+        <div class="preview">
+            <nav class="mainLinks">
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </nav>
+        </div>
+
+        <article>
+            <h2>Use constructor with <span>limit</span></h2>
+        <pre class="code">
+        new SpringElements(
+            elements: '.mainLinks a',
+            limit: 130
+        );</pre>
+
+        </article>
+
+        <div class="both"></div>
+
+    </section>
+
+    <section>
+
+        <p>Contain element must have *position: relative* in style</p>
+
+<pre class="code codeBlockRight">
+    <span>HTML code:</span>
+
+    &lt;div class="wrap"&gt;
+        &lt;a href="#"&gt;&lt;/a&gt;
+    &lt;div&gt;
+
+</pre>
+
+<pre class="code codeBlockLeft">
+    <span>CSS code:</span>
+
+    .wrap {
+        position: relative;
+        display: block;
+        float: left;
+
+        width: 100%;
+        height: 60px;
+
+        padding: 10px;
+    }
+
+    .wrap a {
+        background: #F14472;
+        display: block;
+
+        width: 60px;
+        height: 60px;
+
+        float: left;
+        margin-right: 10px;
+    }
+
+</pre>
+
+<pre class="code codeBlockRight">
+    <span>Dart code:</span>
+
+    new SpringElements(
+        elements: 'wrap a',
+        limit: 130
+    );
+
+</pre>
+        <div class="both"></div>
+    </section>
+    <p style="text-align: center; margin: -20px 0 -10px 0">Thanks for watching</p>
+</main>
+
+</body>
+</html>

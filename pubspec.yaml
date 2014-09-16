@@ -1,0 +1,9 @@
+name: SpElements
+version: 1.0.0
+description: Elements which following cursor on limit destination, with spring effect.
+homepage:
+dependencies:
+  browser: any
+transformers:
+- $dart2js:
+    {'minify':true}
