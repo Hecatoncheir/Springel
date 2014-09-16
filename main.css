@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background: #D9E2EC;
+    border-top: 3px solid #768FA8;
+
+    font-family: 'Arimo', sans-serif;
+}
+
+h1 {
+    font-family: "Lobster";
+    text-align: center;
+    color: #768FA8;
+}
+
+h2 {
+    color: #CA4179;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+main {
+    width: 800px;
+    clear: both;
+    margin: 20px auto;
+    background: #fff;
+    padding: 30px;
+    color: #768FA8;
+
+    border-radius: 6px;
+}
+
+.both {clear: both}
+
+section {clear: both; margin: 10px 0 40px 0;}
+
+span {
+    font-style: italic;
+}
+
+.code span {color: crimson; font-weight: bold}
+
+article {
+    float: left;
+    width: 40%;
+    margin: 5px 20px;
+    margin-top: -15px;
+    margin-left: 60px;
+}
+
+.code {
+    background: #D9E2EC;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+
+.codeBlockRight {
+    width: 40%;
+    padding-right: 30px;
+    float: right;
+    margin-right: 20px;
+}
+
+
+.codeBlockLeft {
+    width: 46%;
+    padding-right: 30px;
+    float: left;
+    margin-right: 20px;
+}
+
+
+/*Preview*/
+.preview {
+    width: 46%;
+    display: block;
+}
+
+.n1 {
+    display: block;
+    float: left;
+    padding: 10px;
+    width: 100%;
+    padding-left: 12px;
+    position: relative;
+    border: 1px solid #CA4179;
+    border-radius: 6px;
+}
+
+.n1 a {
+    display: block;
+    width: 60px;
+    margin: 5px 6px;
+    height: 60px;
+    float: left;
+    background: crimson;
+    border-radius: 6px;
+
+}
+
+.mainLinks {
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #CA4179;
+    padding: 10px;
+    display: block;
+    border-radius: 6px;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.mainLinks a {
+    background: #F14472;
+    display: block;
+    width: 60px;
+    border-radius: 6px;
+    height: 60px;
+    float: left;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 640px) {
+
+    body, main {
+        width: 100%;
+        overflow-x: hidden;
+        padding: 0;
+    }
+
+    div,p, section, .code {
+        float: left !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    pre {
+        background: none !important;
+    }
+
+    h2 {
+        font-size: 0.7em !important;
+        margin-top: 30px;
+        width: 130% !important;
+    }
+
+}
