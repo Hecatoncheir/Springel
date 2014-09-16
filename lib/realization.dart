@@ -1,4 +1,4 @@
-part of Spelements;
+part of springel;
 
 void _AddStyle(ElementList list, Element parent){
   var parentHeight = parent.contentEdge.height;

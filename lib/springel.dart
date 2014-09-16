@@ -1,6 +1,6 @@
-library Spelements;
+library springel;
 import 'dart:html';
-part 'package:Spelements/realization.dart';
+part 'package:springel/realization.dart';
 
 class SpringElements {
   ElementList List;

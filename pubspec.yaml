@@ -1,8 +1,8 @@
-name: Spelements
+name: springel
 version: 1.0.0
 description: Elements which following cursor on limit destination, with spring effect.
 homepage: http://rasarts.github.io/SpElements/
-autor: Vostrikov Vitaliy <rasart.pro@gmail.com>
+author: Vostrikov Vitaliy <rasart.pro@gmail.com>
 dependencies:
   browser: any
 transformers:

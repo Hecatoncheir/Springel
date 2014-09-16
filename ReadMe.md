@@ -1,6 +1,6 @@
-#Dart библиотека SpElements
+#Dart библиотека Springel
 
-[SpElements LIbrary site](http://rasarts.github.io/SpElements/)
+[Springel Library site](http://rasarts.github.io/SpElements/)
 
 Создает элементы которые при наведении цепляясь к курсору, следуют за ним на определенное расстояние.
 
@@ -53,14 +53,14 @@ new SpringElements(
 
 ---
 
-#Dart SpElements Library
+#Dart Springel Library
 
 Creates elements that clinging to the cursor, follow him at a certain distance.
 
 Import library:
 
 ```
-import 'package:SpElements/spelements.dart';
+import 'package:springel/springel.dart';
 ```
 
 *dart:html* not necessarily connected.
