@@ -4,7 +4,11 @@ void _AddStyle(ElementList list, Element parent){
   var parentHeight = parent.contentEdge.height;
   var listElementHeight = list[0].getComputedStyle().marginBottom.replaceAll('px','');
 
-  var FullParentHeight = parentHeight + int.parse(listElementHeight);
+  var FullParentHeight = parentHeight + int.parse(listElementHeight, onError:(source){
+    var error = source;
+    print('$error');
+  });
+  print('$FullParentHeight');
 
   parent.style
     ..position = 'relative'
@@ -19,7 +23,6 @@ void _AddEvents(ElementList list, int limit){
       el.style
         ..opacity = '0.5'
         ..zIndex = '2'
-        ..transitionDelay = "21s"
         ..transform = 'scale(0.8)'
         ..transition = 'all 30ms cubic-bezier(0.455, 0.03, 0.515, 0.955)';
     });
