@@ -7,7 +7,7 @@
 Подключение библиотеки:
 
 ```
-import 'package:SpElements/spelements.dart';
+import 'package:springel/springel.dart';
 ```
 Подключать библиотеку *dart:html* не обязательно.
 
