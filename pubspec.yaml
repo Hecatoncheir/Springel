@@ -1,10 +1,10 @@
 name: springel
-version: 1.0.1
+version: 1.0.2
+author: Vostrikov Vitaliy <rasart.pro@gmail.com>
 description: Elements which following cursor on limit destination, with spring effect.
 homepage: http://rasarts.github.io/Springel/
-author: Vostrikov Vitaliy <rasart.pro@gmail.com>
 dependencies:
-  browser: ">=0.10.0+2 <0.11.0"
+  browser: '>=0.10.0+2 <0.11.0'
 transformers:
 - $dart2js:
-    {'minify':true}
+    minify: true
