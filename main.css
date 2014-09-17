@@ -14,6 +14,21 @@ h1 {
     color: #768FA8;
 }
 
+.libNameConteiner {
+    margin:  0 auto;
+    width: 300px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.libName {
+    display: block;
+    padding: 0;
+    margin: 0;
+    min-width: 300px;
+}
+
 h2 {
     color: #CA4179;
     font-size: 1em;
